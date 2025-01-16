@@ -12,7 +12,7 @@ This project uses [node](http://nodejs.org) and [npm](https://npmjs.com). Go che
 
 ### For Frontend 
 - follow the command to run the client site:
-- ```sh
+```sh
 $ cd frontend
 ```
 
@@ -25,7 +25,7 @@ $ npm run dev
 
 ### For Backend
 - follow the command to run the server site:
-- ```sh
+```sh
 $ cd backend 
 ```
 ```sh
