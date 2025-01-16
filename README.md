@@ -8,9 +8,13 @@ This project uses [node](http://nodejs.org) and [npm](https://npmjs.com). Go che
 
 - Clone or download `the project folder` and then unzip the files.
 - go to the root directory of the job-portal client, you can use `cd space folder-name` to change the folder directory.
+- Demmarer mogodb
 
 ### For Frontend 
-- follow the command to run the client site: 
+- follow the command to run the client site:
+```sh
+$ cd frontend
+```
 
 ```sh
 $ npm install
@@ -20,19 +24,14 @@ $ npm run dev
 ```
 
 ### For Backend
-- follow the command to run the server site: 
+- follow the command to run the server site:
+```sh
+$ cd backend 
+```
 ```sh
 $ npm install
 ```
 ```sh
-$ npm run dev or nodemon Server.js
+$ npm start
 ```
-```sh
-$ add a .env file and include the following environment variables
-```
-```
-DB_STRING="your database url"
-COOKIE_SECRET="make a cookie secret"
-COOKIE_NAME="name a cookie name"
-JWT_SECRET="jwt token here"
-```
+
